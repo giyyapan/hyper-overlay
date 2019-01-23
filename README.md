@@ -14,10 +14,6 @@
 --><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XMAYCF9SDHZ34"><img src="https://img.shields.io/badge/Donate-PayPal-547ab8.svg?style=for-the-badge" alt="donate" title="Donate with PayPal" /></a><!--
 --><a href="https://www.patreon.com/bePatron?u=9336537"><img src="https://i.imgur.com/05PzBRU.png" alt="patreon badge" title="Become a Patron"></a>
   </p>
-
-  <p>
-    <a href="https://discord.gg/zdt5yQt"><img src="https://canary.discordapp.com/api/guilds/246821351585742851/widget.png?style=banner2" alt="Join Discord Server"/></a>
-  </p>
 </div>
 
 <div align="center">
@@ -25,6 +21,13 @@
 <img src="https://cloud.githubusercontent.com/assets/924158/17121698/d122bcaa-52ab-11e6-876c-25a267d00e89.gif" title="homeMacOS" alt="homeMacOS" width="430" align="middle"/><img src="https://raw.githubusercontent.com/Favna/hyper-overlay/master/assets/home.gif" title="homeWin" alt="homeWin" width="430" align="middle"/>
 </p>
 </div>
+
+---
+
+# PLEASE NOTE
+
+This project should be considered stale. I do not have time nor enough knowledge of Electron and Hyper to support it the current time. I cannot guarantee that I will ever invesst enough time in either the framework or the application to support it. While it *may* work it should be expected to have bugs, and they will not be fixed.
+
 
 ---
 
