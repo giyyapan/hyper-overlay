@@ -170,6 +170,7 @@ class Overlay {
         width: 0.4,
         height: 0.4
       },
+      visibleOnAllWorkspaces: false,
       startAlone: false,
       startup: false,
       tray: true,
@@ -222,6 +223,11 @@ class Overlay {
     win.setHasShadow(this._config.hasShadow);
     win.setResizable(this._config.resizable);
     win.setAlwaysOnTop(this._config.alwaysOnTop);
+    if (this._config.visibleOnAllWorkspaces) {
+      this._app.dock.hide();
+      win.setVisibleOnAllWorkspaces(true, { visibleOnFullScreen: true } );
+      win.setFullScreenable(false);
+    }
   }
 
   // get current display
