@@ -385,7 +385,10 @@ class Overlay {
         maximizable: false,
         minimizable: false,
         movable: false,
-        show: false
+        show: false,
+        webPreferences: {
+          preload: path.join(__dirname, 'class.js')
+        }
       });
     }
 
