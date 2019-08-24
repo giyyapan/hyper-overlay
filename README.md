@@ -24,6 +24,8 @@
 
 ---
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Favna/hyper-overlay.svg)](https://greenkeeper.io/)
+
 # PLEASE NOTE
 
 This project should be considered stale. I do not have time nor enough knowledge of Electron and Hyper to support it the current time. I cannot guarantee that I will ever invesst enough time in either the framework or the application to support it. While it *may* work it should be expected to have bugs, and they will not be fixed.
