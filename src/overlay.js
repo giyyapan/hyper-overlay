@@ -20,8 +20,8 @@ class Overlay {
     this._forceStartup = false;
 
     // store tray images
-    this._trayImage = nativeImage.createFromPath(path.join(__dirname, 'assets/traystatic.png'));
-    this._trayPressedImage = nativeImage.createFromPath(path.join(__dirname, 'assets/trayhover.png'));
+    this._trayImage = nativeImage.createFromPath(path.join(__dirname, '../assets/traystatic.png'));
+    this._trayPressedImage = nativeImage.createFromPath(path.join(__dirname, '../assets/trayhover.png'));
   }
 
   // app started
@@ -225,7 +225,7 @@ class Overlay {
     win.setAlwaysOnTop(this._config.alwaysOnTop);
     if (this._config.visibleOnAllWorkspaces) {
       this._app.dock.hide();
-      win.setVisibleOnAllWorkspaces(true, { visibleOnFullScreen: true } );
+      win.setVisibleOnAllWorkspaces(true, {visibleOnFullScreen: true});
       win.setFullScreenable(false);
     }
   }
@@ -339,7 +339,7 @@ class Overlay {
     default:
     case 'top':
       heightSize = this._config.size.height > 1 ? this._config.size.height : Math.round(height * this._config.size.height);
-      this._win.setBounds({x, y, width, height: heightSize}, this._config.animate); 
+      this._win.setBounds({x, y, width, height: heightSize}, this._config.animate);
       break;
     }
   }

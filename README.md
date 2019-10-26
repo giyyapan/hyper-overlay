@@ -1,33 +1,42 @@
 <div align="center">
-
   <p>
-  <h1>Hyper Overlay</h1>
+  <a href="https://favware.tech"><img src="https://raw.githubusercontent.com/Favna/hyper-overlay/master/assets/traystatic.png" height="200" alt="logo"/></a>
   </p>
 
   <p>
-   <a href="https://depfu.com/repos/Favna/hyper-overlay"><img src="https://img.shields.io/depfu/Favna/hyper-overlay.svg?style=for-the-badge" alt="Depfu" /></a><!--
---><a href="https://github.com/Favna/hyper-overlay/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/favna/hyper-overlay.svg?style=for-the-badge" alt="License"></a><!--
---><a href="https://www.npmjs.com/package/hyper-overlay"><img src="https://img.shields.io/node/v/hyper-overlay.svg?style=for-the-badge" alt="Node Version"></a>
-  </p>
-  <p>
-<a href="https://twitter.com/Favna_"><img src="https://img.shields.io/twitter/follow/espadrine.svg?style=for-the-badge&label=Follow" alt="Twitter Follow"></a><!--
---><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XMAYCF9SDHZ34"><img src="https://img.shields.io/badge/Donate-PayPal-547ab8.svg?style=for-the-badge" alt="donate" title="Donate with PayPal" /></a><!--
---><a href="https://www.patreon.com/bePatron?u=9336537"><img src="https://i.imgur.com/05PzBRU.png" alt="patreon badge" title="Become a Patron"></a>
+<h1> Hyper Overlay </h1>
+<h3> Elegant way to have your hyper terminal at your fingers anywhere, anytime</h3>
   </p>
 </div>
 
-<div align="center">
 <p>
 <img src="https://cloud.githubusercontent.com/assets/924158/17121698/d122bcaa-52ab-11e6-876c-25a267d00e89.gif" title="homeMacOS" alt="homeMacOS" width="430" align="middle"/><img src="https://raw.githubusercontent.com/Favna/hyper-overlay/master/assets/home.gif" title="homeWin" alt="homeWin" width="430" align="middle"/>
 </p>
-</div>
+
+---
+
+**Project Status**
+
+[![GitHub](https://img.shields.io/github/license/favna/hyper-overlay?logo=github&style=flat-square)](https://github.com/favna/hyper-overlay/blob/master/LICENSE.md)
+
+**Bundle Sizes**
+
+[![npm bundle size](https://img.shields.io/bundlephobia/min/hyper-overlay?label=hyper-overlay%20-%20minified&logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=hyper-overlay)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/hyper-overlay?label=hyper-overlay%20-%20minzipped&logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=hyper-overlay)
+[![npm](https://img.shields.io/npm/v/hyper-overlay?color=crimson&label=hyper-overlay%20version&logo=npm&style=flat-square)](https://www.npmjs.com/package/hyper-overlay)
+
+**Social Media and Donations**
+
+[![Join Discord server](https://img.shields.io/discord/512303595966824458?color=697EC4&label=Join%20Discord%20Server&logo=discord&logoColor=FDFEFE&style=flat-square)](https://favware.tech/redirect/server)
+[![Twitter Follow](https://img.shields.io/twitter/follow/favna_?label=Follow%20@Favna_&logo=twitter&colorB=1DA1F2&style=flat-square)](https://twitter.com/Favna_/follow)
+[![Patreon Donate](https://img.shields.io/badge/patreon-donate-brightgreen.svg?label=Donate%20with%20Patreon&logo=patreon&colorB=F96854&style=flat-square&link=https://www.patreon.com/bePatron?u=9336537)](https://www.patreon.com/bePatron?u=9336537)
+[![PayPal Donate](https://img.shields.io/badge/paypal-donate-brightgreen.svg?label=Donate%20with%20Paypal&logo=paypal&colorB=00457C&style=flat-square&link=https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XMAYCF9SDHZ34)](https://www.patreon.com/bePatron?u=9336537)
 
 ---
 
 # PLEASE NOTE
 
 This project should be considered stale. I do not have time nor enough knowledge of Electron and Hyper to support it the current time. I cannot guarantee that I will ever invesst enough time in either the framework or the application to support it. While it *may* work it should be expected to have bugs, and they will not be fixed.
-
 
 ---
 
