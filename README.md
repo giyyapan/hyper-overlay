@@ -34,6 +34,23 @@
 
 ---
 
+# Fork Note
+
+Frok from [Favna/hyper-overlay](https://github.com/Favna/hyper-overlay) and fixed the issue that focus is not switching back to previous application after hide the overlay window.
+
+Using solution from PR https://github.com/rickgbw/hyperterm-overlay/pull/39.
+
+Related issues:
+- https://github.com/rickgbw/hyperterm-overlay/issues/38
+
+The tweaked package is published in npm: [giyyapan-hyper-overlay](https://www.npmjs.com/package/giyyapan-hyper-overlay).
+
+---
+
+Notes below are from the original repo:
+
+---
+
 # PLEASE NOTE
 
 This project should be considered stale. I do not have time nor enough knowledge of Electron and Hyper to support it the current time. I cannot guarantee that I will ever invesst enough time in either the framework or the application to support it. While it *may* work it should be expected to have bugs, and they will not be fixed.
