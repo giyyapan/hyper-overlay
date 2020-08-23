@@ -473,13 +473,15 @@ class Overlay {
       setTimeout(() => {
         this._animating = false;
         findFocus();
-        this._win.blur();
+        // this._win.blur();
+        this._win.minimize();
         this._win.hide();
       }, 250);
     } else {
       // close without animation
       findFocus();
-      this._win.blur();
+      // this._win.blur();
+      this._win.minimize();
       this._win.hide();
     }
 
